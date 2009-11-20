@@ -3,18 +3,15 @@ About PushpinWeb
 
 The PushpinWeb API connects developers and data analysts with government
 data.  Learn more about PushpinWeb and the rich datasets you can discover
-behind the API at [http://www.pushpinweb.com][http://www.pushpinweb.com].
+behind the API at [http://www.pushpinweb.com][0].
 
-PushpinWeb's API is a
-[RESTful][http://en.wikipedia.org/wiki/Representational_State_Transfer]
-[JSON][http://en.wikipedia.org/wiki/JSON] API.
-[HTTP Digest][http://en.wikipedia.org/wiki/Digest_access_authentication] is
+PushpinWeb's API is a [RESTful][1] [JSON][2] API. [HTTP Digest][3] is
 used for authentication, and queries are centered on a geographic point
 with and address, intersection, or latitude and longitude. Currently,
 queries are limited to the New York City metropolitan area. If your app
 needs a dataset not found on PushpinWeb you can send feedback and request it.
 
-Questions and feedback about Pushpinweb are always welcome! [pushpinweb@gmail.com][mailto:pushpinweb@gmail.com]
+Questions and feedback about Pushpinweb are always welcome! [pushpinweb@gmail.com][4]
 
 PushpinWeb Client Examples
 ==========================
@@ -27,12 +24,21 @@ inspection data.  Please contribute back your own API clients!
 
 Given the correct libraries being installed, each of these examples can be
 run from the command-line.  For example, run this command to try the Ruby
-[Curb][http://curb.rubyforge.org/] library:
+[Curb][5] library:
 
     PPW_USER=YOUR_USER PPW_PASS=YOUR_PASSWORD ruby/ppw-curb.rb
 
-You will need to [sign up for PushpinWeb][http://www.pushpinweb.com/users/new]
+You will need to [sign up for PushpinWeb][6]
 and get an API account before trying any examples.  You can
-[learn more about the API and formatting queries][http://www.pushpinweb.com/about]
-or review what
-[datasets are available][http://www.pushpinweb.com] on our website.
+[learn more about the API and formatting queries][7]
+or review what [datasets are available][0] on our website.
+
+
+[0]: http://www.pushpinweb.com
+[1]: http://en.wikipedia.org/wiki/Representational_State_Transfer
+[2]: http://en.wikipedia.org/wiki/JSON
+[3]: http://en.wikipedia.org/wiki/Digest_access_authentication
+[4]: mailto:pushpinweb@gmail.com
+[5]: http://curb.rubyforge.org
+[6]: http://www.pushpinweb.com/users/new
+[7]: http://www.pushpinweb.com/about
