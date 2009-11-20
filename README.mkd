@@ -1,0 +1,38 @@
+About PushpinWeb
+================
+
+The PushpinWeb API connects developers and data analysts with government
+data.  Learn more about PushpinWeb and the rich datasets you can discover
+behind the API at [http://www.pushpinweb.com][http://www.pushpinweb.com].
+
+PushpinWeb's API is a
+[RESTful][http://en.wikipedia.org/wiki/Representational_State_Transfer]
+[JSON][http://en.wikipedia.org/wiki/JSON] API.
+[HTTP Digest][http://en.wikipedia.org/wiki/Digest_access_authentication] is
+used for authentication, and queries are centered on a geographic point
+with and address, intersection, or latitude and longitude. Currently,
+queries are limited to the New York City metropolitan area. If your app
+needs a dataset not found on PushpinWeb you can send feedback and request it.
+
+Questions and feedback about Pushpinweb are always welcome! [pushpinweb@gmail.com][mailto:pushpinweb@gmail.com]
+
+PushpinWeb Client Examples
+==========================
+
+This API should be as straight forward and simple as possible.  To help new
+users get the most from this API, we've published this collection of API
+client examples in a variety of languages.  Each example queries the API
+for the details on the dataset with an id of 1, the restaurant health
+inspection data.  Please contribute back your own API clients!
+
+Given the correct libraries being installed, each of these examples can be
+run from the command-line.  For example, run this command to try the Ruby
+[Curb][http://curb.rubyforge.org/] library:
+
+    PPW_USER=YOUR_USER PPW_PASS=YOUR_PASSWORD ruby/ppw-curb.rb
+
+You will need to [sign up for PushpinWeb][http://www.pushpinweb.com/users/new]
+and get an API account before trying any examples.  You can
+[learn more about the API and formatting queries][http://www.pushpinweb.com/about]
+or review what
+[datasets are available][http://www.pushpinweb.com] on our website.
